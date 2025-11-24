@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Calendar, Clock, Phone, Mail, CheckCircle, Shield, Users, DollarSign } from '@/components/icons'
+import { Clock, Phone, Mail, CheckCircle, Shield, Users, DollarSign } from '@/components/icons'
+import Link from 'next/link'
 
 interface BookingFormData {
   // Personal Information
@@ -110,7 +111,7 @@ export default function BookingPage() {
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">Consultation Booked!</h1>
             <p className="text-xl text-gray-600 mb-8">
-              Thank you, {formData.firstName}! We've received your consultation request.
+              Thank you, {formData.firstName}! We&apos;ve received your consultation request.
             </p>
 
             <div className="bg-blue-50 rounded-xl p-6 mb-8 text-left">
@@ -137,7 +138,7 @@ export default function BookingPage() {
                     3
                   </div>
                   <p className="text-gray-700">
-                    <strong>Preparation Package:</strong> We'll send you a brief questionnaire to make the most of your consultation.
+                    <strong>Preparation Package:</strong> We&apos;ll send you a brief questionnaire to make the most of your consultation.
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -169,18 +170,18 @@ export default function BookingPage() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+              <Link
                 href="/"
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
               >
                 Return to Home
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/services"
                 className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
               >
                 Learn More About Our Services
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -410,7 +411,7 @@ export default function BookingPage() {
                         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
                       >
                         <option value="">Select an option</option>
-                        <option value="no-cpa">Don't currently have a CPA</option>
+                        <option value="no-cpa">Don&apos;t currently have a CPA</option>
                         <option value="have-cpa">Have a CPA but want second opinion</option>
                         <option value="diy">Do my own taxes</option>
                         <option value="new-business">Just started a business</option>
@@ -524,8 +525,8 @@ export default function BookingPage() {
                         <div className="text-sm text-blue-900">
                           <p className="font-medium mb-1">What to Expect</p>
                           <p>
-                            Your free consultation will last approximately 45-60 minutes. We'll review your tax situation,
-                            identify savings opportunities, and outline potential strategies. There's no obligation to proceed.
+                            Your free consultation will last approximately 45-60 minutes. We&apos;ll review your tax situation,
+                            identify savings opportunities, and outline potential strategies. There&apos;s no obligation to proceed.
                           </p>
                         </div>
                       </div>
@@ -624,7 +625,7 @@ export default function BookingPage() {
                 ))}
               </div>
               <p className="text-gray-700 italic mb-3">
-                "MC Tax Shelter saved me over $45,000 in the first year alone. The consultation was thorough and they explained everything in terms I could understand."
+                &quot;MC Tax Shelter saved me over $45,000 in the first year alone. The consultation was thorough and they explained everything in terms I could understand.&quot;
               </p>
               <p className="font-semibold text-gray-900">— Robert Chen</p>
               <p className="text-sm text-gray-600">Real Estate Investor</p>

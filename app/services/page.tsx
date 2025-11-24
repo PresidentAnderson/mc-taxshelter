@@ -57,7 +57,7 @@ export default function ServicesPage() {
       title: "Investment Tax Planning",
       tagline: "Optimize your portfolio for after-tax returns",
       savings: "Save up to 30%",
-      description: "Smart investing isn't just about returns—it's about what you keep after taxes. We develop sophisticated strategies to minimize capital gains, maximize tax-advantaged growth, and optimize your overall investment portfolio.",
+      description: "Smart investing isn&apos;t just about returns—it&apos;s about what you keep after taxes. We develop sophisticated strategies to minimize capital gains, maximize tax-advantaged growth, and optimize your overall investment portfolio.",
       features: [
         "Strategic tax-loss harvesting programs",
         "Capital gains timing and deferral strategies",
@@ -105,7 +105,7 @@ export default function ServicesPage() {
       title: "Retirement Optimization",
       tagline: "Supercharge your retirement savings",
       savings: "Save up to 25%",
-      description: "Retirement accounts offer powerful tax advantages, but most people don't maximize their potential. We implement advanced strategies to accelerate your retirement savings while minimizing current and future taxes.",
+      description: "Retirement accounts offer powerful tax advantages, but most people don&apos;t maximize their potential. We implement advanced strategies to accelerate your retirement savings while minimizing current and future taxes.",
       features: [
         "Solo 401(k) and Mega Backdoor Roth strategies",
         "Traditional to Roth IRA conversions (timing optimization)",
@@ -224,7 +224,7 @@ export default function ServicesPage() {
                     <p className="text-gray-600 mb-6 text-lg">{service.description}</p>
 
                     <div className="mb-8">
-                      <h3 className="text-xl font-semibold text-gray-900 mb-4">What's Included:</h3>
+                      <h3 className="text-xl font-semibold text-gray-900 mb-4">What&apos;s Included:</h3>
                       <div className="grid sm:grid-cols-2 gap-3">
                         {service.features.map((feature, idx) => (
                           <div key={idx} className="flex items-start gap-2">
@@ -346,7 +346,7 @@ export default function ServicesPage() {
             <Shield className="w-16 h-16 text-blue-600 mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Guarantee</h2>
             <p className="text-xl text-gray-600 mb-8">
-              If we don't save you at least 3x our fee in tax savings within the first year, we'll refund 100% of your investment.
+              If we don&apos;t save you at least 3x our fee in tax savings within the first year, we&apos;ll refund 100% of your investment.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-left">
               <div className="flex items-start gap-3">

@@ -27,7 +27,7 @@ interface BookingFormData {
 }
 
 // Validation helper
-function validateBookingForm(data: any): { isValid: boolean; errors: string[] } {
+function validateBookingForm(data: Record<string, unknown>): { isValid: boolean; errors: string[] } {
   const errors: string[] = []
 
   // Personal Information - Required fields
@@ -225,7 +225,7 @@ export async function POST(request: NextRequest) {
 }
 
 // OPTIONS handler for CORS preflight (if needed)
-export async function OPTIONS(request: NextRequest) {
+export async function OPTIONS(_request: NextRequest) {
   return NextResponse.json(
     {},
     {

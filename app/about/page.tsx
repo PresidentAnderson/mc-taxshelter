@@ -61,7 +61,7 @@ export default function AboutPage() {
     {
       icon: TrendingUp,
       title: "Results-Driven",
-      description: "Our success is measured by your savings. We're committed to maximizing your after-tax wealth through proven strategies."
+      description: "Our success is measured by your savings. We&apos;re committed to maximizing your after-tax wealth through proven strategies."
     },
     {
       icon: Users,
@@ -83,7 +83,7 @@ export default function AboutPage() {
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl font-bold mb-6">About MC Tax Shelter</h1>
             <p className="text-xl text-gray-300 mb-8">
-              For over 25 years, we've been helping individuals and businesses keep more of what they earn through strategic, legal tax optimization.
+              For over 25 years, we&apos;ve been helping individuals and businesses keep more of what they earn through strategic, legal tax optimization.
             </p>
             <div className="flex flex-wrap justify-center gap-8 text-center">
               <div className="flex flex-col items-center">
@@ -121,10 +121,10 @@ export default function AboutPage() {
                   Michael recognized that while large corporations had teams of tax advisors finding every legal way to reduce their tax burden, small business owners and high-income professionals were often paying far more than necessary.
                 </p>
                 <p>
-                  Today, we're proud to serve thousands of clients across North America, from entrepreneurs and real estate investors to Fortune 500 companies. Our team of 50+ tax professionals brings together expertise in business taxation, estate planning, international tax law, and cutting-edge financial strategies.
+                  Today, we&apos;re proud to serve thousands of clients across North America, from entrepreneurs and real estate investors to Fortune 500 companies. Our team of 50+ tax professionals brings together expertise in business taxation, estate planning, international tax law, and cutting-edge financial strategies.
                 </p>
                 <p>
-                  We've saved our clients over $50 million in taxes through perfectly legal, IRS-compliant strategies. But beyond the numbers, we've built lasting relationships based on trust, transparency, and results.
+                  We&apos;ve saved our clients over $50 million in taxes through perfectly legal, IRS-compliant strategies. But beyond the numbers, we&apos;ve built lasting relationships based on trust, transparency, and results.
                 </p>
               </div>
             </div>
@@ -154,14 +154,14 @@ export default function AboutPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission & Values</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're committed to helping you build and preserve wealth through intelligent tax planning
+              We&apos;re committed to helping you build and preserve wealth through intelligent tax planning
             </p>
           </div>
 
           <div className="mb-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-white text-center">
             <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
             <p className="text-lg max-w-3xl mx-auto">
-              To empower individuals and businesses to achieve financial success by providing expert tax strategies that are ethical, effective, and tailored to each client's unique situation. We believe everyone deserves access to the same sophisticated tax planning tools available to the wealthy.
+              To empower individuals and businesses to achieve financial success by providing expert tax strategies that are ethical, effective, and tailored to each client&apos;s unique situation. We believe everyone deserves access to the same sophisticated tax planning tools available to the wealthy.
             </p>
           </div>
 

@@ -10,7 +10,7 @@ interface ContactFormData {
 }
 
 // Validation helper
-function validateContactForm(data: any): { isValid: boolean; errors: string[] } {
+function validateContactForm(data: Record<string, unknown>): { isValid: boolean; errors: string[] } {
   const errors: string[] = []
 
   // Required field validation
@@ -126,7 +126,7 @@ export async function POST(request: NextRequest) {
 }
 
 // OPTIONS handler for CORS preflight (if needed)
-export async function OPTIONS(request: NextRequest) {
+export async function OPTIONS(_request: NextRequest) {
   return NextResponse.json(
     {},
     {
